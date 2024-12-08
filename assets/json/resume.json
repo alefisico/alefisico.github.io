@@ -1,24 +1,24 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "name": "Alejandro Gomez Espinosa",
+    "label": "Experimental Particle Physicist",
+    "image": "assets/img/AlejandroGomezEspinosaCMS.jpg",
+    "email": "alejandro.gomez@cern.ch",
+    "phone": "",
+    "url": "https://alefisico.github.io/",
+    "summary": "Ecuadorian, experimental particle physicist, currently working for Carnegie Mellon University at the CMS Experiment at CERN. My area of expertise is in particles decaying hadronically. I am interested in searches with jets and di-Higgs searches. I am also interested in workflow orchestration and continuous integration tools.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "",
+      "postalCode": "15219",
+      "city": "Pittsburgh",
       "countryCode": "US",
-      "region": "California"
+      "region": "Pennsylvania"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "alejandro-gomez-espinosa",
+        "url": "https://www.linkedin.com/in/alejandro-gomez-espinosa/"
       }
     ]
   },
