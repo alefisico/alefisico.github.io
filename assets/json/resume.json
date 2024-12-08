@@ -24,13 +24,21 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+        "name": "Carnegie Mellon University",
+        "position": "Postdoctoral Research Associate",
+        "url": "https://www.cmu.edu/physics/index.html",
+        "startDate": "2023-010-01",
+        "summary": "Studying the self-interaction of the Higgs boson in the di-Higgs production channel. Research focuses on the four b-quark decay channel and is expanding to improve current studies in the bbWW channel. Additionally, working on workflow orchestration tools and analysis reproducibility. Advocating for the adoption of modern programming practices, including continuous integration (CI), extensive use of unit tests, and regular result replication using Snakemake and REANA",
+        "highlights": ["Di-Higgs self-interaction", "Four b-quark decay channel", "Workflow orchestration", "Continuous integration"]
+      },
+    {
+      "name": "Institute for Particle and Astrophysics, ETH-Zurich",
+      "position": "Postdoctoral Researcher",
+      "url": "https://wallny-group.phys.ethz.ch/",
+      "startDate": "2018-04-01",
+      "endDate": "2023-10-01",
+      "summary": "Lead the measurements for the ttH production in the H(bb) channel using Run II data from CMS, particularly in the boosted regime. Additionally leading the measurements of jet substructure observables in different high transverse momentum jet environments. Moreover, I have significant contributions in commissioning and calibration of boosted taggers for heavy resonances and pileup mitigation techniques at high trigger level for Run III",
+      "highlights": ["ttHbb measurement", "Jet substructure measurements", "Boosted taggers commissioning", "Pileup mitigation techniques"]
     }
   ],
   "education": [
@@ -148,7 +156,7 @@
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Spanish",
       "fluency": "Native speaker",
       "icon": ""
     },
@@ -163,25 +171,9 @@
       "name": "Physics",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Jet Physics",
+        "Di-Higgs Physics"
       ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     }
   ],
   "projects": [
