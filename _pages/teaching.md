@@ -5,7 +5,7 @@ title: teaching
 description: Materials for courses I have created.
 nav: true
 nav_order: 5
-display_categories: [CMU, CMS]
+display_categories: [CMS]
 horizontal: false
 ---
 
