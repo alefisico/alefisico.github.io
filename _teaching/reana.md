@@ -6,5 +6,5 @@ description: CMS CAT Snakemake/REANA tutorial
 url: https://alefisico.github.io/reana-tutorial/index.html
 importance: 1
 category: CMS
-redirect: true
+redirect: https://alefisico.github.io/reana-tutorial/index.html
 ---

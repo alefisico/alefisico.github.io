@@ -6,5 +6,5 @@ description: This is the official CMSDAS Jet Exercise. I didn't do everything my
 url: https://cms-jet.github.io/JMEDAS/
 importance: 1
 category: CMS
-redirect: true
+redirect: https://cms-jet.github.io/JMEDAS/
 ---
