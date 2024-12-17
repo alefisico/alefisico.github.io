@@ -12,7 +12,7 @@ Ecuadorian, experimental particle physicist, currently working for Carnegie Mell
 ### The short version
 
 <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/AlejandroGomezEspinosaCMS.jpg" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/AlejandroGomezEspinosaCMS.jpg" class="img-fluid rounded z-depth-1" %}
 </div>
 
 I come from South America, Ecuador specifically, but I have been outside my beautiful country for a while now. The reason? I am in love with science, and unfortunately, I cannot do what I am passionate about in my own country.
