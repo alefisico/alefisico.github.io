@@ -57,7 +57,7 @@ From a theoretical perspective, I explored a variation of supersymmetry (SUSY). 
 
 #### My Undergraduate Research
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Escudo_de_la_Escuela_Polit%C3%A9cnica_Nacional.png" alt="drawing" width="200"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Escuela_Polit%C3%A9cnica_Nacional.png" alt="drawing" width="200"/>
 
 **Escuela Politécnica Nacional** - Ecuador
 For my undergraduate thesis, I searched for exotic particles, specifically colorons decaying into a pair of top quarks, resulting in a final state with four top quarks. This project was supervised by Dr. Francisco Yumiceva (Fermilab, currently at FIT). I conducted this analysis from scratch: generating a private production of a pair of heavy scalar bosons in Madgraph5, hadronizing my sample with Pythia8, passing it through CMSSW Fast Simulation, comparing the signal with background and data, and determining the best strategy to analyze my signal. Two analyses were performed: a simple cut-and-count analysis and a multivariate analysis using Boosted Decision Trees. Ultimately, we established the first limits on Standard Model four-top quark production and the pair production of the heavy scalar boson GH.
