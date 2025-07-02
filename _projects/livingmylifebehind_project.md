@@ -7,7 +7,7 @@ importance: 3
 category: fun
 ---
 
-El Camino de Santiago is the biggest adventure of my life. It is an 800 km walk on North Spain along the path followed for centuries by peregrinos around the world. I did it in 35 days and I documented all the process in pictures and videos. All this content is located in the following [website](https://lnk.bio/livingmylifebehind).
+El Camino de Santiago is the biggest adventure of my life. It is an 800 km walk on North Spain along the path followed for centuries by peregrinos around the world. I did it in 35 days and I documented all the process in pictures and videos. All this content is located in the following [website](http://lnk.bio/livingmylifebehind).
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
