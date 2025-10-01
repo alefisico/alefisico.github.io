@@ -6,7 +6,7 @@ subtitle: Experimental Particle Physicist
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: Alejandro_Prof_Pic1.JPG
   address: >
     <p>Currently in </p>
     <p>Pittsburgh, USA</p>
