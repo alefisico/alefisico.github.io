@@ -77,6 +77,8 @@ jobs:
         with:
           python-version: "3.13"
           cache: "pip" # caching pip dependencies
+      - name: Install ImageMagick 🎨
+        run: sudo apt-get update && sudo apt-get install -y imagemagick
       - name: Update _config.yml ⚙️
         uses: fjogeleit/yaml-update-action@main
         with:

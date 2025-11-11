@@ -6,4 +6,5 @@ repo_description_lines_max: 2
 github_repos:
   - cms-cmu/barista
   - cms-cmu/coffea4bees
+  - cms-cmu/bbreww
   - alefisico/JetToolbox

@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+description: This is a list of my contributions in Github. I have many others in CERN GitLab, but they are not public. You can find some of them in my CV.
 nav: true
 nav_order: 4
 ---
