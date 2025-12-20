@@ -19,7 +19,7 @@ category: cheatsheet
 | :--- | :--- | 
 | `-n` / `--dry-run` | Do not execute anything. Just show the plan. | 
 | `-p` / `--printshellcmds` | Print the shell command (resolves wildcards). **Essential** for verifying ROOT file paths. | 
-| `-r` / `--reason` | Print why a rule is running (e.g., "Code Changed", "Input updated"). | 
+| `-r` / `--reason` | Print why a rule is running (e.g., "Code Changed", "Input updated"). Check snakemake version |
 | `--lint` | Check workflow for errors and best practices (missing logs, etc). | 
 
 ## 2. Execution & Clusters
