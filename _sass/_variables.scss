@@ -6,8 +6,11 @@
 @use "sass:color";
 
 // Fonts
-$font-family-sans: 'Inter', -apple-system, sans-serif !default;
-$font-family-serif: 'Lora', Georgia, serif !default;
+$font-family-sans:
+  "Inter",
+  -apple-system,
+  sans-serif !default;
+$font-family-serif: "Lora", Georgia, serif !default;
 
 // Colors
 $brand-color: #2a5a7a !default; // Premium sober steel blue

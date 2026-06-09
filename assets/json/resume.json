@@ -24,13 +24,13 @@
   },
   "work": [
     {
-        "name": "Carnegie Mellon University",
-        "position": "Postdoctoral Research Associate",
-        "url": "https://www.cmu.edu/physics/index.html",
-        "startDate": "2023-010-01",
-        "summary": "Studying the self-interaction of the Higgs boson in the di-Higgs production channel. Research focuses on the four b-quark decay channel and is expanding to improve current studies in the bbWW channel. Additionally, working on workflow orchestration tools and analysis reproducibility. Advocating for the adoption of modern programming practices, including continuous integration (CI), extensive use of unit tests, and regular result replication using Snakemake and REANA",
-        "highlights": ["Di-Higgs self-interaction", "Four b-quark decay channel", "Workflow orchestration", "Continuous integration"]
-      },
+      "name": "Carnegie Mellon University",
+      "position": "Postdoctoral Research Associate",
+      "url": "https://www.cmu.edu/physics/index.html",
+      "startDate": "2023-010-01",
+      "summary": "Studying the self-interaction of the Higgs boson in the di-Higgs production channel. Research focuses on the four b-quark decay channel and is expanding to improve current studies in the bbWW channel. Additionally, working on workflow orchestration tools and analysis reproducibility. Advocating for the adoption of modern programming practices, including continuous integration (CI), extensive use of unit tests, and regular result replication using Snakemake and REANA",
+      "highlights": ["Di-Higgs self-interaction", "Four b-quark decay channel", "Workflow orchestration", "Continuous integration"]
+    },
     {
       "name": "Institute for Particle and Astrophysics, ETH-Zurich",
       "position": "Postdoctoral Researcher",
@@ -53,15 +53,15 @@
       "courses": ["Experimental Particle Physics"]
     },
     {
-        "institution": "Escuela Politecnica Nacional",
-        "location": "Quito",
-        "url": "https://physics.rutgers.edu/",
-        "area": "Bachelor of Physics",
-        "studyType": "Bachelor",
-        "startDate": "2006-09-01",
-        "endDate": "2012-09-01",
-        "courses": ["Physics"]
-      }
+      "institution": "Escuela Politecnica Nacional",
+      "location": "Quito",
+      "url": "https://physics.rutgers.edu/",
+      "area": "Bachelor of Physics",
+      "studyType": "Bachelor",
+      "startDate": "2006-09-01",
+      "endDate": "2012-09-01",
+      "courses": ["Physics"]
+    }
   ],
   "certificates": [
     {
@@ -98,13 +98,7 @@
       "name": "Computing Languages",
       "level": "advanced",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Python",
-        "Git, Gitlab CI/CD",
-        "Snakemake",
-        "Data Analysis",
-        "Statistical Data Analysis"
-      ]
+      "keywords": ["Python", "Git, Gitlab CI/CD", "Snakemake", "Data Analysis", "Statistical Data Analysis"]
     }
   ],
   "languages": [
@@ -123,12 +117,7 @@
     {
       "name": "Physics",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Jet Physics",
-        "Di-Higgs Physics",
-        "Reproducibility",
-        "Workflow Orchestration"
-      ]
+      "keywords": ["Jet Physics", "Di-Higgs Physics", "Reproducibility", "Workflow Orchestration"]
     }
   ]
 }

@@ -81,7 +81,8 @@ h6 {
     color: var(--global-text-color) !important;
     transition: all 0.15s ease-in-out;
 
-    i, svg {
+    i,
+    svg {
       font-size: 1rem;
     }
 
@@ -114,7 +115,11 @@ table {
 a,
 table.table a {
   color: var(--global-theme-color);
-  transition: color 0.15s ease-in-out, border-color 0.15s ease-in-out, background-color 0.15s ease-in-out, transform 0.15s ease-in-out;
+  transition:
+    color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out,
+    background-color 0.15s ease-in-out,
+    transform 0.15s ease-in-out;
 
   &:hover {
     color: var(--global-hover-color);

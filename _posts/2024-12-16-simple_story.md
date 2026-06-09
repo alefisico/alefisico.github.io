@@ -35,8 +35,6 @@ I am currently studying the self-interaction of the Higgs boson in the di-Higgs 
 
 Additionally, I have a strong interest in workflow orchestration tools and analysis reproducibility. I have been advocating for the adoption of modern programming practices, including continuous integration (CI), extensive use of unit tests, and regular result replication using Snakemake and REANA.
 
-
-
 <img src="https://logonoid.com/images/eth-logo.jpg" alt="drawing" width="300"/>
 
 **Eidgenössische Technische Hochschule Zürich (ETH-Zurich)** - Switzerland
@@ -48,7 +46,6 @@ I studied the production of top quarks and the Higgs boson, focusing on the semi
 <img src="https://phi-cdcfellows.org/wp-content/uploads/2021/09/rutgers-university-e1632346073780.jpg" alt="drawing" width="300"/>
 
 **Rutgers, The State University of New Jersey** - USA
-
 
 My research focused on boosted jets during Run II of the LHC, supervised by Prof. Eva Halkiadakis. Typically, when a particle decays into two quarks at rest or with low momentum, the resulting particle showers (jets) can be reconstructed separately. However, for boosted particles (those not produced at rest), the decay products are more collimated, appearing as a single jet. I studied these boosted objects to distinguish between regular jets and those with internal substructure.
 
@@ -62,6 +59,5 @@ From a theoretical perspective, I explored a variation of supersymmetry (SUSY). 
 **Escuela Politécnica Nacional** - Ecuador
 For my undergraduate thesis, I searched for exotic particles, specifically colorons decaying into a pair of top quarks, resulting in a final state with four top quarks. This project was supervised by Dr. Francisco Yumiceva (Fermilab, currently at FIT). I conducted this analysis from scratch: generating a private production of a pair of heavy scalar bosons in Madgraph5, hadronizing my sample with Pythia8, passing it through CMSSW Fast Simulation, comparing the signal with background and data, and determining the best strategy to analyze my signal. Two analyses were performed: a simple cut-and-count analysis and a multivariate analysis using Boosted Decision Trees. Ultimately, we established the first limits on Standard Model four-top quark production and the pair production of the heavy scalar boson GH.
 [Link to thesis](https://bibdigital.epn.edu.ec/browse?type=author&value=G%C3%B3mez+Espinosa%2C+Tirso+Alejandro).
-
 
 ### [My CV in PDF](/assets/pdf/cv_AlejandroGomez.pdf)

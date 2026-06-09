@@ -4,23 +4,41 @@ layout: default
 <div class="post">
   <article>
     {% if page.profile %}
-      <div class="profile-banner d-flex flex-column flex-sm-row align-items-center mb-5 p-4 rounded" style="background-color: var(--global-code-bg-color); border: 1px solid var(--global-divider-color);">
+      <div
+        class="profile-banner d-flex flex-column flex-sm-row align-items-center mb-5 p-4 rounded"
+        style="background-color: var(--global-code-bg-color); border: 1px solid var(--global-divider-color);"
+      >
         {% if page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
           <div class="profile-banner-image mr-sm-4 mb-3 mb-sm-0 text-center">
-            <img src="{{ profile_image_path | relative_url | bust_file_cache }}" class="img-fluid rounded-circle z-depth-1" style="width: 120px; height: 120px; min-width: 120px; object-fit: cover;" alt="{{ page.profile.image }}">
+            <img
+              src="{{ profile_image_path | relative_url | bust_file_cache }}"
+              class="img-fluid rounded-circle z-depth-1"
+              style="width: 120px; height: 120px; min-width: 120px; object-fit: cover;"
+              alt="{{ page.profile.image }}"
+            >
           </div>
         {% endif %}
         <div class="profile-banner-info flex-grow-1 text-center text-sm-left">
-          <h1 class="profile-banner-name font-weight-bold mb-1" style="font-family: var(--font-family-serif); font-size: 2.2rem; color: var(--global-text-color);">
-            {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}
+          <h1
+            class="profile-banner-name font-weight-bold mb-1"
+            style="font-family: var(--font-family-serif); font-size: 2.2rem; color: var(--global-text-color);"
+          >
+            {{ site.first_name }}
+            {{ site.middle_name }}
+            {{ site.last_name }}
           </h1>
           <p class="profile-banner-subtitle text-muted mb-2" style="font-size: 1.1rem; font-family: var(--font-family-sans);">{{ page.subtitle }}</p>
           {% if page.profile.more_info %}
-            <div class="profile-banner-more-info text-muted mb-3" style="font-size: 0.9rem; font-family: var(--font-family-sans);">{{ page.profile.more_info }}</div>
+            <div class="profile-banner-more-info text-muted mb-3" style="font-size: 0.9rem; font-family: var(--font-family-sans);">
+              {{ page.profile.more_info }}
+            </div>
           {% endif %}
           {% if page.social %}
-            <div class="profile-banner-social d-flex flex-wrap justify-content-center justify-content-sm-start mt-2" style="gap: 12px; font-size: 1.3rem;">
+            <div
+              class="profile-banner-social d-flex flex-wrap justify-content-center justify-content-sm-start mt-2"
+              style="gap: 12px; font-size: 1.3rem;"
+            >
               {% include social.liquid %}
             </div>
           {% endif %}

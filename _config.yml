@@ -10,12 +10,12 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   This is my personal website. Experimental Particle Physicist, CERN.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-keywords: data scientist, cern, particle physics, ecuador, fisica de particulas, cientifico, ecuatoriano.  # add your own keywords or leave empty, jekyll, jekyll-theme, academic-website,
+keywords: data scientist, cern, particle physics, ecuador, fisica de particulas, cientifico, ecuatoriano. # add your own keywords or leave empty, jekyll, jekyll-theme, academic-website,
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon-32x32.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://alefisico.github.io # the base hostname & protocol for your site
-baseurl: 
+baseurl:
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
@@ -131,7 +131,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Living My Life Behind  # your blog must have a name for it to show up in the nav bar
+blog_name: Living My Life Behind # your blog must have a name for it to show up in the nav bar
 blog_description: An ongoing journey
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
@@ -173,7 +173,6 @@ external_sources:
   #   posts:
   #     - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
   #       published_date: 2024-05-14
-  
 
 # -----------------------------------------------------------------------------
 # Newsletter

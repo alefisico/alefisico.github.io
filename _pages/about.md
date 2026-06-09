@@ -11,9 +11,9 @@ profile:
     <p>Currently in </p>
     <p>Pittsburgh, USA</p>
 
-news: false  # includes a list of news items
+news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
 Welcome to my corner of the web. Here, I share my research, projects, academic journey, and thoughts on physics and computing.

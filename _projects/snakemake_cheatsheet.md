@@ -11,42 +11,43 @@ category: cheatsheet
 
 ## 1. Safety First (Pre-Flight)
 
-*Always run this combination before submitting large jobs.*
+_Always run this combination before submitting large jobs._
 
 **Command:** `snakemake -n -p -r -c1`
 
-| Argument | Description | 
-| :--- | :--- | 
-| `-n` / `--dry-run` | Do not execute anything. Just show the plan. | 
-| `-p` / `--printshellcmds` | Print the shell command (resolves wildcards). **Essential** for verifying ROOT file paths. | 
-| `-r` / `--reason` | Print why a rule is running (e.g., "Code Changed", "Input updated"). Check snakemake version |
-| `--lint` | Check workflow for errors and best practices (missing logs, etc). | 
+| Argument                  | Description                                                                                  |
+| :------------------------ | :------------------------------------------------------------------------------------------- |
+| `-n` / `--dry-run`        | Do not execute anything. Just show the plan.                                                 |
+| `-p` / `--printshellcmds` | Print the shell command (resolves wildcards). **Essential** for verifying ROOT file paths.   |
+| `-r` / `--reason`         | Print why a rule is running (e.g., "Code Changed", "Input updated"). Check snakemake version |
+| `--lint`                  | Check workflow for errors and best practices (missing logs, etc).                            |
 
 ## 2. Execution & Clusters
 
 **Command:** `snakemake -c4 --profile slurm --groups skim=10`
 
-| Argument | Description | 
-| :--- | :--- | 
-| `-c N` / `--cores N` | **Mandatory.** Max N local cores or max N cluster jobs. | 
-| `--profile <name>` | Submit to cluster (Slurm/Condor) using a configured profile (replaces `--cluster`). | 
-| `--groups <r>=<n>` | Group *n* jobs of rule *r* into one cluster submission (Reduces scheduler stress). | 
-| `-k` / `--keep-going` | Continue with independent jobs even if one fails. | 
-| `--max-jobs-per-second` | Limit submission rate (avoid DDOSing the scheduler). Default is 10. | 
+| Argument                | Description                                                                         |
+| :---------------------- | :---------------------------------------------------------------------------------- |
+| `-c N` / `--cores N`    | **Mandatory.** Max N local cores or max N cluster jobs.                             |
+| `--profile <name>`      | Submit to cluster (Slurm/Condor) using a configured profile (replaces `--cluster`). |
+| `--groups <r>=<n>`      | Group _n_ jobs of rule _r_ into one cluster submission (Reduces scheduler stress).  |
+| `-k` / `--keep-going`   | Continue with independent jobs even if one fails.                                   |
+| `--max-jobs-per-second` | Limit submission rate (avoid DDOSing the scheduler). Default is 10.                 |
 
 ## 3. Apptainer / Singularity
 
-*Crucial for running jobs inside containers on CERN/CMU clusters.*
+_Crucial for running jobs inside containers on CERN/CMU clusters._
 
 **Command:** `snakemake --use-singularity --singularity-args "--bind /cvmfs"`
 
-| Argument | Description | 
-| :--- | :--- | 
-| `--use-singularity` | Enable container execution for rules with `container:` directive. | 
-| `--singularity-args` | Pass args to the container runtime. Critical for binding paths like `/cvmfs` or `/data`. | 
-| `--singularity-prefix` | Directory to store pulled images (avoid filling up `$HOME`). | 
+| Argument               | Description                                                                              |
+| :--------------------- | :--------------------------------------------------------------------------------------- |
+| `--use-singularity`    | Enable container execution for rules with `container:` directive.                        |
+| `--singularity-args`   | Pass args to the container runtime. Critical for binding paths like `/cvmfs` or `/data`. |
+| `--singularity-prefix` | Directory to store pulled images (avoid filling up `$HOME`).                             |
 
 **Snakefile Syntax:**
+
 ```python
 container: "docker://rootproject/root:6.26.04"
 ```
@@ -55,49 +56,52 @@ container: "docker://rootproject/root:6.26.04"
 
 **Command:** `snakemake --use-conda --conda-prefix ~/.snakemake/conda`
 
-| Argument | Description | 
-| :--- | :--- | 
-| `--use-conda` | Enable execution of rules with `conda:` directive. | 
-| `--conda-prefix <dir>` | Store envs in a central location (shared by multiple workflows). | 
-| `--conda-cleanup-envs` | Remove unused conda environments to free space. | 
-| `--list-conda-envs` | List all environments created by this workflow. | 
+| Argument               | Description                                                      |
+| :--------------------- | :--------------------------------------------------------------- |
+| `--use-conda`          | Enable execution of rules with `conda:` directive.               |
+| `--conda-prefix <dir>` | Store envs in a central location (shared by multiple workflows). |
+| `--conda-cleanup-envs` | Remove unused conda environments to free space.                  |
+| `--list-conda-envs`    | List all environments created by this workflow.                  |
 
 ## 5. Debugging & Cleanup
 
-| Argument | Description | 
-| :--- | :--- | 
-| `--rerun-incomplete` | Re-run jobs that failed and left corrupt/partial output files. | 
-| `--unlock` | Remove directory lock after a hard crash. | 
-| `--delete-all-output` | The "Make Clean". Removes all files generated by the workflow. | 
-| `--delete-temp-output` | Removes all files marked with `temp()`. | 
-| `--cleanup-metadata` | Fixes corrupt tracking state (doesn't delete files). | 
-| `--allowed-rules` | Only run specific rules (restrict DAG creation). | 
+| Argument               | Description                                                    |
+| :--------------------- | :------------------------------------------------------------- |
+| `--rerun-incomplete`   | Re-run jobs that failed and left corrupt/partial output files. |
+| `--unlock`             | Remove directory lock after a hard crash.                      |
+| `--delete-all-output`  | The "Make Clean". Removes all files generated by the workflow. |
+| `--delete-temp-output` | Removes all files marked with `temp()`.                        |
+| `--cleanup-metadata`   | Fixes corrupt tracking state (doesn't delete files).           |
+| `--allowed-rules`      | Only run specific rules (restrict DAG creation).               |
 
 ## 6. Optimization & Limits
 
 **Command:** `snakemake --resources mem_mb=8000 --local-cores 2`
 
-| Argument | Description | 
-| :--- | :--- | 
-| `--resources k=v` | Set global limits for arbitrary resources defined in rules (e.g., `gpu=1`). | 
-| `--local-cores N` | Limit threads for rules marked `localrule` (prevents head-node overload). | 
-| `--shadow-prefix <dir>` | Set directory for "shadow" rules (useful if `/tmp` is too small). | 
+| Argument                | Description                                                                 |
+| :---------------------- | :-------------------------------------------------------------------------- |
+| `--resources k=v`       | Set global limits for arbitrary resources defined in rules (e.g., `gpu=1`). |
+| `--local-cores N`       | Limit threads for rules marked `localrule` (prevents head-node overload).   |
+| `--shadow-prefix <dir>` | Set directory for "shadow" rules (useful if `/tmp` is too small).           |
 
 ## 7. Verbosity & Progress
 
-*Handling the noise of thousands of jobs.*
+_Handling the noise of thousands of jobs._
 
 **Silence metadata, keep errors:**
+
 ```bash
 snakemake -q -c1
 ```
 
 **Clean Progress Bar (Linux Trick):**
+
 ```bash
 snakemake -c1 2>&1 | grep --line-buffered "steps ("
 ```
 
 **Recommended Logging Pattern (Snakefile):**
+
 ```python
 log: "logs/rule.log"
 shell: "cmd > {log} 2>&1"
@@ -105,20 +109,20 @@ shell: "cmd > {log} 2>&1"
 
 ## 8. Visualization & Reporting
 
-| Goal | Command | 
-| :--- | :--- | 
-| **Generate DAG Graph** | `snakemake --dag \| dot -Tpng > dag.png` | 
-| **Generate File Graph** | `snakemake --filegraph \| dot -Tpng > files.png` | 
-| **HTML Report** | `snakemake --report report.html` (Standalone stats & graphs) | 
-| **Archive Workflow** | `snakemake --archive workflow.tar.gz` | 
+| Goal                    | Command                                                      |
+| :---------------------- | :----------------------------------------------------------- |
+| **Generate DAG Graph**  | `snakemake --dag \| dot -Tpng > dag.png`                     |
+| **Generate File Graph** | `snakemake --filegraph \| dot -Tpng > files.png`             |
+| **HTML Report**         | `snakemake --report report.html` (Standalone stats & graphs) |
+| **Archive Workflow**    | `snakemake --archive workflow.tar.gz`                        |
 
 ## 9. Introspection & Config
 
-| Argument | Description | 
-| :--- | :--- | 
-| `--config k=v` | Override config dict values (e.g., `--config year=2018`). | 
-| `--envvars VAR` | Pass shell environment variables into the workflow config. | 
-| `--touch` | Mark output files as "fresh" without running (Use with caution). | 
-| `--detailed-summary` | Table of all files with mtimes and status. | 
-| `--list-input-changes` | List exactly which input files triggered a re-run. | 
-| `--list-code-changes` | List rules re-running because code changed. |
+| Argument               | Description                                                      |
+| :--------------------- | :--------------------------------------------------------------- |
+| `--config k=v`         | Override config dict values (e.g., `--config year=2018`).        |
+| `--envvars VAR`        | Pass shell environment variables into the workflow config.       |
+| `--touch`              | Mark output files as "fresh" without running (Use with caution). |
+| `--detailed-summary`   | Table of all files with mtimes and status.                       |
+| `--list-input-changes` | List exactly which input files triggered a re-run.               |
+| `--list-code-changes`  | List rules re-running because code changed.                      |
