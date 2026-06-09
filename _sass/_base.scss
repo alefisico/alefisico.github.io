@@ -2,21 +2,97 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
-// Typography
+body {
+  font-family: var(--font-family-sans);
+}
 
 p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
 em,
 div,
 li,
 span,
 strong {
   color: var(--global-text-color);
+  font-family: var(--font-family-sans);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--global-text-color);
+  font-family: var(--font-family-serif);
+}
+
+/* Modern vertical left accent line for main section headers in posts */
+.post {
+  h2 {
+    border-left: 2.5px solid var(--global-theme-color) !important;
+    padding-left: 12px;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+  }
+}
+
+/* Capsule badge lists (for Research Interests) */
+.interests-badges {
+  ul {
+    padding-left: 0 !important;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+
+    li {
+      display: inline-block;
+      background-color: var(--global-code-bg-color);
+      border: 1px solid var(--global-divider-color);
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      color: var(--global-text-color);
+      transition: all 0.15s ease-in-out;
+      font-family: var(--font-family-sans);
+      margin-bottom: 0 !important;
+
+      &:hover {
+        border-color: var(--global-theme-color);
+        background-color: rgba(42, 90, 122, 0.08);
+        transform: translateY(-1px);
+      }
+    }
+  }
+}
+
+/* Profile banner social icons styling adjustment to look like small round buttons */
+.profile-banner-social {
+  a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: var(--global-card-bg-color);
+    border: 1px solid var(--global-divider-color);
+    color: var(--global-text-color) !important;
+    transition: all 0.15s ease-in-out;
+
+    i, svg {
+      font-size: 1rem;
+    }
+
+    &:hover {
+      background-color: var(--global-theme-color);
+      color: var(--global-hover-text-color) !important;
+      border-color: var(--global-theme-color);
+      transform: translateY(-2px);
+      text-decoration: none;
+    }
+  }
 }
 
 hr {
@@ -38,10 +114,11 @@ table {
 a,
 table.table a {
   color: var(--global-theme-color);
+  transition: color 0.15s ease-in-out, border-color 0.15s ease-in-out, background-color 0.15s ease-in-out, transform 0.15s ease-in-out;
 
   &:hover {
-    color: var(--global-theme-color);
-    text-decoration: underline;
+    color: var(--global-hover-color);
+    text-decoration: none;
   }
 
   &:hover:after :not(.nav-item.dropdown) {
@@ -371,10 +448,16 @@ ul.task-list input[type="checkbox"] {
   border: 0;
   background-color: inherit;
   color: var(--global-text-color);
+  white-space: nowrap;
 
   &:hover {
     color: var(--global-hover-color);
   }
+}
+
+#search-toggle .nav-link {
+  white-space: nowrap;
+  display: inline-block;
 }
 
 // Social (bottom)
@@ -752,16 +835,22 @@ footer.sticky-bottom {
       .links {
         a.btn {
           color: var(--global-text-color);
-          border: 1px solid var(--global-text-color);
+          border: 1px solid var(--global-divider-color);
+          background-color: var(--global-card-bg-color);
           padding-left: 1rem;
           padding-right: 1rem;
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
           margin-left: 0;
+          transition: all 0.15s ease-in-out;
+          border-radius: 4px;
 
           &:hover {
-            color: var(--global-theme-color);
-            border-color: var(--global-theme-color);
+            color: var(--global-hover-color);
+            border-color: var(--global-hover-color);
+            background-color: var(--global-code-bg-color);
+            transform: translateY(-1px);
+            text-decoration: none;
           }
         }
         a.award.btn {

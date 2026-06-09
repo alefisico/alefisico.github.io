@@ -5,7 +5,14 @@
 
 @use "sass:color";
 
+// Fonts
+$font-family-sans: 'Inter', -apple-system, sans-serif !default;
+$font-family-serif: 'Lora', Georgia, serif !default;
+
 // Colors
+$brand-color: #2a5a7a !default; // Premium sober steel blue
+$brand-hover-color: #1e3f56 !default;
+
 $red-color: #ff3636 !default;
 $red-color-dark: #b71c1c !default;
 $orange-color: #f29105 !default;

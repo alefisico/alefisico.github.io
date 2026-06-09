@@ -16,12 +16,22 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Welcome to my corner of the web. Here I am storing my portfolio, projects, academic life, and even my thoughts.
+Welcome to my corner of the web. Here, I share my research, projects, academic journey, and thoughts on physics and computing.
 
-I am an accomplished Ecuadorian scientist specializing in ``Experimental High Energy Physics``, with more than 10 years of academic experience spanning different institutions: [Fermilab](https://lpc.fnal.gov/), [Rutgers University](https://physics.rutgers.edu/research/high-energy-experiment), [ETH-Zurich](https://wallny-group.phys.ethz.ch/), and [Carnegie Mellon University](https://www.cmu.edu/physics/index.html). My primary research area centers on the [CMS Experiment](https://cms.cern), one of the [CERN-LHC](https://home.web.cern.ch) experiments with a diverse stakeholder base of over 4,000 individuals. Working at CERN has afforded me the opportunity to lead and collaborate with large, multicultural groups both in-person and remotely.
+I am an **Experimental Particle Physicist** and Postdoctoral Researcher at **Carnegie Mellon University**, specializing in high-energy collisions and advanced data analysis for the **CMS Experiment** at **CERN**. With over a decade of research experience across leading institutions—including [Fermilab](https://lpc.fnal.gov/), [ETH-Zurich](https://wallny-group.phys.ethz.ch/), [Rutgers University](https://physics.rutgers.edu/research/high-energy-experiment), and [Carnegie Mellon University](https://www.cmu.edu/physics/index.html)—my work sits at the intersection of fundamental physics, high-throughput computing, and reproducible data science.
 
-Throughout my career, I have specialized in the reconstruction of physical objects produced in high-energy collisions, namely jets. I have conducted in-depth analyses of these (multi-)jet signatures for standard model measurements and new physics searches, processing petabyte-scale datasets with advanced statistical tools. My contributions have resulted in over 5 scientific publications, where I played a direct role in the production of data-driven frameworks using programming languages like Python and C++.
+My primary research focuses on searching for new physics and measuring standard model phenomena, with a particular interest in **di-Higgs physics** and the precision reconstruction and calibration of **jets**. Analyzing petabyte-scale datasets from the [Large Hadron Collider](https://home.web.cern.ch) (LHC), I develop robust data-driven frameworks using **C++** and **Python**, incorporating **machine learning** and **cloud computing** to optimize event reconstruction.
 
-As a skilled communicator, I have presented my research to large audiences of over 500 stakeholders. My scientific curiosity and enthusiasm have inspired me to explore machine learning algorithms and cloud computing applications to optimize data processing.
+As a strong advocate for open science, I actively work on **workflow orchestration** and **analysis reproducibility** to make high-energy physics research more accessible and sustainable. I thrive in large, multicultural collaborations, leading international teams within the 4,000+ member [CMS Collaboration](https://cms.cern) and regularly communicating scientific results to global audiences of over 500 stakeholders.
 
-<!-- I am committed to lifelong learning, continually seeking to expand my skill set and knowledge base through [Coursera specializations](https://www.coursera.org/user/245b92b57d7282521f16a2c7e48a454b) and participating in [Kaggle](https://www.kaggle.com/aleespinosa) competitions. -->
+## Research Interests
+
+<div class="interests-badges">
+  <ul>
+    <li>High Energy Physics</li>
+    <li>di-Higgs Physics</li>
+    <li>Workflow Orchestration</li>
+    <li>Open Data</li>
+    <li>Analysis Reproducibility</li>
+  </ul>
+</div>
