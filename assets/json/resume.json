@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Alejandro Gomez Espinosa",
-    "label": "Experimental Particle Physicist",
+    "label": "Postdoctoral Research Associate & FNAL LPC Junior Distinguished Researcher",
     "image": "assets/img/AlejandroGomezEspinosaCMS.jpg",
     "email": "alejandro.gomez@cern.ch",
     "phone": "",
     "url": "https://alefisico.github.io/",
-    "summary": "Ecuadorian, experimental particle physicist, currently working for Carnegie Mellon University at the CMS Experiment at CERN. My area of expertise is in particles decaying hadronically. I am interested in searches with jets and di-Higgs searches. I am also interested in workflow orchestration and continuous integration tools.",
+    "summary": "Experimental high-energy physicist specializing in Higgs physics and advanced reconstruction algorithms within the CMS Collaboration. Leading di-Higgs searches and workflow preservation initiatives at Carnegie Mellon University.",
     "location": {
       "address": "",
       "postalCode": "15219",
@@ -26,63 +26,133 @@
     {
       "name": "Carnegie Mellon University",
       "position": "Postdoctoral Research Associate",
+      "location": "Pittsburgh, USA",
       "url": "https://www.cmu.edu/physics/index.html",
-      "startDate": "2023-010-01",
-      "summary": "Studying the self-interaction of the Higgs boson in the di-Higgs production channel. Research focuses on the four b-quark decay channel and is expanding to improve current studies in the bbWW channel. Additionally, working on workflow orchestration tools and analysis reproducibility. Advocating for the adoption of modern programming practices, including continuous integration (CI), extensive use of unit tests, and regular result replication using Snakemake and REANA",
-      "highlights": ["Di-Higgs self-interaction", "Four b-quark decay channel", "Workflow orchestration", "Continuous integration"]
+      "startDate": "2023-10-01",
+      "endDate": "",
+      "summary": "Co-leading the CMS di-Higgs to 4b analysis group and developing novel analysis strategies for di-Higgs decay channels.",
+      "highlights": [
+        "Co-leading CMS di-Higgs to four b-quark (bbbb) analysis group.",
+        "Developed the Run 2 di-Higgs to 4b search, improving sensitivity by 30%.",
+        "Fully preserved the analysis workflow (120+ jobs) using Snakemake and REANA.",
+        "Designed and deployed multiple CI/CD pipelines (up to 50+ jobs) for software validation."
+      ]
     },
     {
-      "name": "Institute for Particle and Astrophysics, ETH-Zurich",
+      "name": "ETH Zurich",
+      "position": "Visitor Researcher",
+      "location": "Zurich, Switzerland",
+      "url": "https://wallny-group.phys.ethz.ch/",
+      "startDate": "2022-10-01",
+      "endDate": "2023-09-30",
+      "summary": "Automating validation and finalizing jet substructure studies.",
+      "highlights": [
+        "Developed continuous integration pipelines to automate jet substructure software validation.",
+        "Finalized measurements of jet substructure observables in high transverse momentum environments."
+      ]
+    },
+    {
+      "name": "ETH Zurich",
       "position": "Postdoctoral Researcher",
+      "location": "Zurich, Switzerland",
       "url": "https://wallny-group.phys.ethz.ch/",
       "startDate": "2018-04-01",
-      "endDate": "2023-10-01",
-      "summary": "Lead the measurements for the ttH production in the H(bb) channel using Run II data from CMS, particularly in the boosted regime. Additionally leading the measurements of jet substructure observables in different high transverse momentum jet environments. Moreover, I have significant contributions in commissioning and calibration of boosted taggers for heavy resonances and pileup mitigation techniques at high trigger level for Run III",
-      "highlights": ["ttHbb measurement", "Jet substructure measurements", "Boosted taggers commissioning", "Pileup mitigation techniques"]
+      "endDate": "2022-09-30",
+      "summary": "Higgs measurements in the boosted regime and jet substructure leadership.",
+      "highlights": [
+        "Key contributor to the Higgs boson measurement in the ttH(bb) channel (boosted regime).",
+        "Led jet substructure measurements in different high transverse momentum jet topologies.",
+        "Supervised and mentored graduate and undergraduate students on jet and heavy-flavour identification.",
+        "Contributed to commissioning boosted taggers and pileup mitigation for Run 3."
+      ]
+    },
+    {
+      "name": "Rutgers University",
+      "position": "Graduate Research Assistant",
+      "location": "New Brunswick, USA",
+      "url": "https://physics.rutgers.edu/",
+      "startDate": "2013-06-01",
+      "endDate": "2018-03-31",
+      "summary": "Search for pair-produced dijet resonances and trigger development.",
+      "highlights": [
+        "Primary analyst for search of pair-produced dijet resonances using jet substructure techniques.",
+        "Designed and implemented the first CMS jet substructure triggers.",
+        "Supervised and mentored undergraduate, high school, and REU student projects."
+      ]
     }
   ],
   "education": [
     {
       "institution": "Rutgers, The State University of New Jersey",
-      "location": "New Brunskwick, NJ",
+      "location": "New Brunswick, NJ, USA",
       "url": "https://physics.rutgers.edu/",
-      "area": "Experimental Particle Physics",
-      "studyType": "PhD",
+      "area": "Experimental High Energy Physics",
+      "studyType": "Ph.D.",
       "startDate": "2012-09-01",
-      "endDate": "2018-04-01",
-      "courses": ["Experimental Particle Physics"]
+      "endDate": "2018-05-31"
     },
     {
       "institution": "Escuela Politecnica Nacional",
-      "location": "Quito",
-      "url": "https://physics.rutgers.edu/",
-      "area": "Bachelor of Physics",
-      "studyType": "Bachelor",
+      "location": "Quito, Ecuador",
+      "url": "https://www.epn.edu.ec/",
+      "area": "Physics",
+      "studyType": "B.Sc.",
       "startDate": "2006-09-01",
-      "endDate": "2012-09-01",
-      "courses": ["Physics"]
+      "endDate": "2012-08-31"
+    }
+  ],
+  "awards": [
+    {
+      "title": "2026 Junior CMS LPC Distinguished Researcher",
+      "date": "2026-01-01",
+      "awarder": "LHC Physics Center at Fermilab",
+      "summary": "Recognizes and supports early-career researchers conducting independent research at the LPC."
+    },
+    {
+      "title": "Breakthrough Prize in Fundamental Physics",
+      "date": "2025-04-01",
+      "awarder": "Breakthrough Prize Foundation",
+      "summary": "Awarded for significant contributions to the understanding of the Higgs boson within the CMS Collaboration."
+    },
+    {
+      "title": "Student Travel Award",
+      "date": "2016-04-01",
+      "awarder": "American Physical Society (APS) - DPF",
+      "summary": "Travel fellowship to present contributions to paired dijet resonance searches."
+    },
+    {
+      "title": "CERN Summer Student Fellowship",
+      "date": "2012-06-01",
+      "awarder": "CERN",
+      "summary": "Selected for prestigious summer student research program on Higgs decay channels."
+    },
+    {
+      "title": "Visitor Undergraduate Scientist Fellowship",
+      "date": "2011-11-01",
+      "awarder": "LHC Physics Center at Fermilab",
+      "summary": "Fellowship to conduct undergraduate research on heavy scalar bosons."
     }
   ],
   "certificates": [
     {
-      "name": "Enologist",
-      "date": "2024-01-20",
-      "issuer": "Euroinnova Business School",
-      "url": "https://www.euroinnova.com/curso-enologia",
+      "name": "Google Data Analytics Professional Certificate",
+      "date": "2022-03-01",
+      "issuer": "Coursera, Google",
+      "url": "https://www.credly.com/badges/881f262f-7e69-416e-b82d-122b74471ec6",
       "icon": "fa-solid fa-clipboard-check"
     },
     {
-      "name": "Deep Learning",
+      "name": "Deep Learning Specialization",
       "date": "2022-01-20",
-      "issuer": "Coursera, DeepLearning AI",
+      "issuer": "Coursera, DeepLearning.AI",
       "url": "https://www.coursera.org/account/accomplishments/specialization/certificate/DVNFF7E7KCYU",
       "icon": "fa-solid fa-clipboard-check"
     },
     {
-      "name": "Google Data Analytics Professional Certificate",
-      "date": "2022-03-01",
-      "issuer": "Coursera, Google",
-      "url": "https://www.credly.com/badges/881f262f-7e69-416e-b82d-122b74471ec6?source=linked_in_profile",
+      "name": "Specialization in Enology (Winemaking)",
+      "date": "2022-01-01",
+      "issuer": "Euroinnova Business School",
+      "url": "https://www.euroinnova.com/curso-enologia",
       "icon": "fa-solid fa-clipboard-check"
     },
     {
@@ -95,29 +165,80 @@
   ],
   "skills": [
     {
-      "name": "Computing Languages",
+      "name": "Programming Languages",
       "level": "advanced",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": ["Python", "Git, Gitlab CI/CD", "Snakemake", "Data Analysis", "Statistical Data Analysis"]
+      "icon": "fa-solid fa-code",
+      "keywords": [
+        "Python",
+        "C++",
+        "Bash",
+        "SQL",
+        "R",
+        "LaTeX"
+      ]
+    },
+    {
+      "name": "Tools & Technologies",
+      "level": "advanced",
+      "icon": "fa-solid fa-toolbox",
+      "keywords": [
+        "Git / GitLab CI/CD",
+        "Docker",
+        "Kubernetes",
+        "Snakemake",
+        "REANA",
+        "Jupyter Notebooks",
+        "Pandas / NumPy / Scikit-learn"
+      ]
+    },
+    {
+      "name": "Research & Methods",
+      "level": "advanced",
+      "icon": "fa-solid fa-flask",
+      "keywords": [
+        "Experimental High-Energy Physics",
+        "Data Analysis & Visualisation",
+        "Machine Learning",
+        "Workflow Orchestration & Reproducibility"
+      ]
     }
   ],
   "languages": [
     {
       "language": "Spanish",
       "fluency": "Native speaker",
-      "icon": ""
+      "icon": "fa-solid fa-language"
     },
     {
       "language": "English",
       "fluency": "Fluent",
-      "icon": ""
+      "icon": "fa-solid fa-language"
+    },
+    {
+      "language": "German",
+      "fluency": "Basic",
+      "icon": "fa-solid fa-language"
+    },
+    {
+      "language": "Italian",
+      "fluency": "Basic",
+      "icon": "fa-solid fa-language"
+    },
+    {
+      "language": "French",
+      "fluency": "Basic",
+      "icon": "fa-solid fa-language"
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": ["Jet Physics", "Di-Higgs Physics", "Reproducibility", "Workflow Orchestration"]
+      "name": "Physics & Computing",
+      "icon": "fa-solid fa-atom",
+      "keywords": [
+        "Higgs & Jet Physics",
+        "Workflow Preservation",
+        "Analysis Reproducibility"
+      ]
     }
   ]
 }
