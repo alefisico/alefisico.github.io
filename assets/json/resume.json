@@ -168,28 +168,13 @@
       "name": "Programming Languages",
       "level": "advanced",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "Python",
-        "C++",
-        "Bash",
-        "SQL",
-        "R",
-        "LaTeX"
-      ]
+      "keywords": ["Python", "C++", "Bash", "SQL", "R", "LaTeX"]
     },
     {
       "name": "Tools & Technologies",
       "level": "advanced",
       "icon": "fa-solid fa-toolbox",
-      "keywords": [
-        "Git / GitLab CI/CD",
-        "Docker",
-        "Kubernetes",
-        "Snakemake",
-        "REANA",
-        "Jupyter Notebooks",
-        "Pandas / NumPy / Scikit-learn"
-      ]
+      "keywords": ["Git / GitLab CI/CD", "Docker", "Kubernetes", "Snakemake", "REANA", "Jupyter Notebooks", "Pandas / NumPy / Scikit-learn"]
     },
     {
       "name": "Research & Methods",
@@ -234,11 +219,7 @@
     {
       "name": "Physics & Computing",
       "icon": "fa-solid fa-atom",
-      "keywords": [
-        "Higgs & Jet Physics",
-        "Workflow Preservation",
-        "Analysis Reproducibility"
-      ]
+      "keywords": ["Higgs & Jet Physics", "Workflow Preservation", "Analysis Reproducibility"]
     }
   ]
 }
