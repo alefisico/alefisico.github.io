@@ -6,7 +6,7 @@
     "email": "alejandro.gomez@cern.ch",
     "phone": "",
     "url": "https://alefisico.github.io/",
-    "summary": "Experimental high-energy physicist specializing in Higgs physics and advanced reconstruction algorithms within the CMS Collaboration. Leading di-Higgs searches and workflow preservation initiatives at Carnegie Mellon University.",
+    "summary": "Experimental high-energy physicist specializing in Higgs physics, machine learning applications, and advanced reconstruction algorithms within the CMS Collaboration. Leading ttH(bb) and di-Higgs searches as well as workflow preservation initiatives at Carnegie Mellon University.",
     "location": {
       "address": "",
       "postalCode": "15219",
@@ -28,14 +28,32 @@
       "position": "Research Physicist",
       "location": "Pittsburgh, USA",
       "url": "https://www.cmu.edu/physics/index.html",
-      "startDate": "2023-10-01",
+      "startDate": "2026-10-01",
       "endDate": "",
-      "summary": "Co-leading the CMS di-Higgs to 4b analysis group and developing novel analysis strategies for di-Higgs decay channels.",
+      "summary": "Leading CMS Run 3 inclusive ttH(bb) and di-Higgs searches, machine learning developments, and scalable multi-backend workflows.",
       "highlights": [
-        "Co-leading CMS di-Higgs to four b-quark (bbbb) analysis group.",
-        "Developed the Run 2 di-Higgs to 4b search, improving sensitivity by 30%.",
-        "Fully preserved the analysis workflow (120+ jobs) using Snakemake and REANA.",
-        "Designed and deployed multiple CI/CD pipelines (up to 50+ jobs) for software validation."
+        "Leading the CMS Run 3 inclusive ttH(bb) analysis, spearheading a modernized strategy that substantially outperforms previous measurements.",
+        "Co-leading CMS Run 3 di-Higgs (HH) searches in the bbbb and bbWW channels; pioneered low-pT jet strategies boosting overall HH -> bbbb sensitivity by 10% and HH -> bbWW sensitivity by ~20%.",
+        "Developing machine learning algorithms to enhance signal classification and improve background modeling via out-of-sample density ratio estimation.",
+        "Co-supervising Ph.D. and Master's students on di-Higgs searches, inclusive ttH(bb) measurements, and machine learning applications.",
+        "Architecting scalable Snakemake workflows and CI/CD pipelines executing across Slurm, Kubernetes, and HTCondor backends.",
+        "Administering the local CMU physics computing cluster (GPU hardware, Slurm scheduling, and software environments)."
+      ]
+    },
+    {
+      "name": "Carnegie Mellon University",
+      "position": "Postdoctoral Research Associate",
+      "location": "Pittsburgh, USA",
+      "url": "https://www.cmu.edu/physics/index.html",
+      "startDate": "2023-10-01",
+      "endDate": "2026-09-30",
+      "summary": "Co-led the CMS Run 2 di-Higgs to 4b analysis group, served as CMS Workflow Orchestration Convener, and established analysis preservation infrastructure.",
+      "highlights": [
+        "Served as CMS Workflow Orchestration and Analysis Preservation Group Convener (Sept 2024 -- Sept 2026), establishing tutorials and standards adopted community-wide.",
+        "Co-led the CMS Run 2 di-Higgs to four b-quark (bbbb) analysis group, improving sensitivity by 30% using data-driven background estimations and synthetic datasets.",
+        "Fully preserved the Run 2 analysis workflow (120+ jobs) using Snakemake and REANA.",
+        "Designed and deployed multiple CI/CD pipelines (up to 50+ jobs) for automated software validation.",
+        "Administered the local group computing cluster (Slurm queues, GPU nodes) and instructed CMS-wide workflow training sessions."
       ]
     },
     {

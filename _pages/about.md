@@ -20,9 +20,9 @@ Welcome to my corner of the web. Here, I share my research, projects, academic j
 
 I am an **Experimental Particle Physicist** and Research Physicist at **Carnegie Mellon University**, specializing in high-energy collisions and advanced data analysis for the **CMS Experiment** at **CERN**. With over a decade of research experience across leading institutions—including [Fermilab](https://lpc.fnal.gov/), [ETH-Zurich](https://wallny-group.phys.ethz.ch/), [Rutgers University](https://physics.rutgers.edu/research/high-energy-experiment), and [Carnegie Mellon University](https://www.cmu.edu/physics/index.html)—my work sits at the intersection of fundamental physics, high-throughput computing, and reproducible data science.
 
-My primary research focuses on searching for new physics and measuring standard model phenomena, with a particular interest in **di-Higgs physics** and the precision reconstruction and calibration of **jets**. Analyzing petabyte-scale datasets from the [Large Hadron Collider](https://home.web.cern.ch) (LHC), I develop robust data-driven frameworks using **C++** and **Python**, incorporating **machine learning** and **cloud computing** to optimize event reconstruction.
+My primary research focuses on searching for new physics and measuring standard model phenomena, with a particular interest in **di-Higgs physics**, inclusive **ttH(bb)** measurements, and the precision reconstruction and calibration of **jets**. Analyzing petabyte-scale datasets from the [Large Hadron Collider](https://home.web.cern.ch) (LHC), I develop robust data-driven frameworks using **C++** and **Python**, incorporating **machine learning** (such as advanced signal classification and out-of-sample density ratios) and **distributed computing backends** (Slurm, Kubernetes, HTCondor) to optimize event reconstruction and analysis execution.
 
-As a strong advocate for open science, I actively work on **workflow orchestration** and **analysis reproducibility** to make high-energy physics research more accessible and sustainable. I thrive in large, multicultural collaborations, leading international teams within the 4,000+ member [CMS Collaboration](https://cms.cern) and regularly communicating scientific results to global audiences of over 500 stakeholders.
+As a strong advocate for open science, I actively work on **workflow orchestration** and **analysis reproducibility** to make high-energy physics research more accessible and sustainable. Having served as convener for the CMS Workflow Orchestration and Analysis Preservation group, I thrive in large, multicultural collaborations, leading international teams within the 4,000+ member [CMS Collaboration](https://cms.cern) and regularly communicating scientific results to global audiences of over 500 stakeholders.
 
 ## Research Interests
 
@@ -30,6 +30,8 @@ As a strong advocate for open science, I actively work on **workflow orchestrati
   <ul>
     <li>High Energy Physics</li>
     <li>di-Higgs Physics</li>
+    <li>ttH(bb) Physics</li>
+    <li>Machine Learning</li>
     <li>Workflow Orchestration</li>
     <li>Open Data</li>
     <li>Analysis Reproducibility</li>

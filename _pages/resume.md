@@ -30,12 +30,26 @@ As a data-driven scientist with extensive experience in experimental physics and
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
 hand -->
 
+##### _Research Physicist_, Carnegie Mellon University (2026 -- Present)
+
+- Leading the CMS Run 3 inclusive ttH(bb) analysis, spearheading a modernized analysis strategy that substantially outperforms previous measurements.
+- Co-leading CMS Run 3 di-Higgs searches in bbbb and bbWW, pioneering low-pT jet strategies improving overall sensitivity by 10% (bbbb) and ~20% (bbWW).
+- Developing machine learning algorithms for signal classification and out-of-sample density ratio estimation.
+- Co-supervising graduate researchers (Master's and Ph.D.) and administering the local research cluster (Slurm, GPUs).
+
+##### _Postdoctoral Research Associate_, Carnegie Mellon University (2023 -- 2026)
+
+- Co-led the CMS Run 2 di-Higgs to four b-quark (bbbb) analysis group, improving sensitivity by 30% using data-driven background estimations.
+- Fully preserved the 120+ job analysis workflow using Snakemake and REANA, and built multi-stage CI/CD pipelines (50+ jobs).
+- Managed local group cluster resources (Slurm queues, GPU nodes) and led community tutorials on workflow orchestration.
+
 ##### _Data Scientist_, CERN-CMS Experiment (2011 -- Present)
 
 - Built an academic career over a decade as part of a team of 2000+ stakeholders in one of the CERN experiments, representing three different institutions.
 - Designed and optimized over five multi-class C++/Python frameworks to analyze petabyte-scale data and simulations, resulting in significant acceleration of processing times from weeks to days.
 - Authored and co-authored over five peer-reviewed scientific publications.
 - **Leadership Experience**:
+  - _Workflow Orchestration and Analysis Preservation Convener_ (2024-2026) - Directed the CMS Experiment efforts on workflow orchestration tools, CI/CD practices, and analysis preservation.
   - _Jet Algorithms Convener_ (2019-2021) - Directed and led a research group of over 20 stakeholders, successfully coordinating with competing partners to produce and publish reports.
   - _Trigger Subgroup Convener_ (2016-2017). Coordinated the deployment of real-time data filters for a research group consisting of more than 30 stakeholders.
 
