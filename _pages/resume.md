@@ -15,7 +15,7 @@ nav: false
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
 
-As a data-driven scientist with extensive experience in experimental physics and a proven track record of success at CERN, I possess a unique combination of analytical and communication skills. My expertise lies in analyzing and interpreting petabyte-scale datasets using advanced statistical tools, including machine learning algorithms, to drive innovative research and generate actionable insights. Throughout my career, I have honed my ability to effectively communicate complex scientific concepts to diverse audiences, including thousands of stakeholders, through written and oral presentations. As I transition to a new career path, I am eager to leverage my skills and experience to tackle new challenges and drive success in the field of data science.
+Lead Research Scientist and Quantitative Modeler with over a decade of experience designing and deploying machine learning solutions across petabyte-scale datasets at CERN and Carnegie Mellon University. Expert in developing novel statistical estimation algorithms, deep learning models, and synthetic data techniques to extract rare signals in high-noise, high-uncertainty environments. Proven track record architecting distributed computing pipelines and declarative workflow orchestrators (Kubernetes, Slurm, CI/CD) engineered to operate seamlessly with agentic AI systems. Demonstrated technical and cross-functional leadership, coordinating international teams of 20+ researchers and delivering high-stakes findings to global stakeholder audiences of over 500.
 
 ### Skills
 
