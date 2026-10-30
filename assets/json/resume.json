@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Alejandro Gomez Espinosa",
-    "label": "Research Physicist & FNAL LPC Junior Distinguished Researcher",
+    "label": "Research Physicist & FNAL LPC Distinguished Researcher (2026, 2027)",
     "image": "assets/img/AlejandroGomezEspinosaCMS.jpg",
     "email": "alejandro.gomez@cern.ch",
     "phone": "",
@@ -120,12 +120,26 @@
       "endDate": "2012-08-31"
     }
   ],
+  "volunteer": [
+    {
+      "organization": "U.S. CMS Collaboration",
+      "position": "Chair, Mentorship Committee",
+      "url": "https://uscms.org/",
+      "startDate": "2024-01-01",
+      "endDate": "",
+      "summary": "Serving as Chair (2026--present) and Committee Member (2024--2026).",
+      "highlights": [
+        "Directing the national mentorship program across U.S. CMS institutions.",
+        "Coordinating nationwide mentor-mentee pairings, organizing career development workshops, and creating onboarding frameworks for early-career researchers."
+      ]
+    }
+  ],
   "awards": [
     {
-      "title": "2026 Junior CMS LPC Distinguished Researcher",
+      "title": "CMS LPC Distinguished Researcher (2026, 2027)",
       "date": "2026-01-01",
       "awarder": "LHC Physics Center at Fermilab",
-      "summary": "Recognizes and supports early-career researchers conducting independent research at the LPC."
+      "summary": "Recognizes and supports early-career researchers conducting independent research at the LPC at Fermilab."
     },
     {
       "title": "Breakthrough Prize in Fundamental Physics",

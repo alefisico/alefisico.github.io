@@ -50,6 +50,7 @@ hand -->
 - Designed and optimized over five multi-class C++/Python frameworks to analyze petabyte-scale data and simulations, resulting in significant acceleration of processing times from weeks to days.
 - Authored and co-authored over five peer-reviewed scientific publications.
 - **Leadership Experience**:
+  - _Chair, U.S. CMS Mentorship Committee_ (2026 -- Present; Member 2024--2026) - Directing national mentorship pairings and professional development initiatives across member institutions.
   - _Workflow Orchestration and Analysis Preservation Convener_ (2024-2026) - Directed the CMS Experiment efforts on workflow orchestration tools, CI/CD practices, and analysis preservation.
   - _Jet Algorithms Convener_ (2019-2021) - Directed and led a research group of over 20 stakeholders, successfully coordinating with competing partners to produce and publish reports.
   - _Trigger Subgroup Convener_ (2016-2017). Coordinated the deployment of real-time data filters for a research group consisting of more than 30 stakeholders.
