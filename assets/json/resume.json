@@ -33,7 +33,7 @@
       "summary": "Leading CMS Run 3 inclusive ttH(bb) and di-Higgs searches, machine learning developments, and scalable multi-backend workflows.",
       "highlights": [
         "Leading the CMS Run 3 inclusive ttH(bb) analysis, spearheading a modernized strategy that substantially outperforms previous measurements.",
-        "Co-leading CMS Run 3 di-Higgs (HH) searches in the bbbb and bbWW channels; pioneered low-pT jet strategies boosting overall HH -> bbbb sensitivity by 10% and HH -> bbWW sensitivity by ~20%.",
+        "Co-leading CMS Run 3 di-Higgs (HH) searches in the bbbb final state, advancing data-driven background modeling and uncertainty frameworks to maximize search sensitivity.",
         "Developing machine learning algorithms to enhance signal classification and improve background modeling via out-of-sample density ratio estimation.",
         "Co-supervising Ph.D. and Master's students on di-Higgs searches, inclusive ttH(bb) measurements, and machine learning applications.",
         "Architecting scalable Snakemake workflows and CI/CD pipelines executing across Slurm, Kubernetes, and HTCondor backends.",
@@ -51,6 +51,7 @@
       "highlights": [
         "Served as CMS Workflow Orchestration and Analysis Preservation Group Convener (Sept 2024 -- Sept 2026), establishing tutorials and standards adopted community-wide.",
         "Co-led the CMS Run 2 di-Higgs to four b-quark (bbbb) analysis group, improving sensitivity by 30% using data-driven background estimations and synthetic datasets.",
+        "Pioneered low-pT jet strategies in di-Higgs searches, boosting overall HH -> bbbb sensitivity by 10% and HH -> bbWW sensitivity by ~20%.",
         "Fully preserved the Run 2 analysis workflow (120+ jobs) using Snakemake and REANA.",
         "Designed and deployed multiple CI/CD pipelines (up to 50+ jobs) for automated software validation.",
         "Administered the local group computing cluster (Slurm queues, GPU nodes) and instructed CMS-wide workflow training sessions."

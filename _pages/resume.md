@@ -33,13 +33,14 @@ hand -->
 ##### _Research Physicist_, Carnegie Mellon University (2026 -- Present)
 
 - Leading the CMS Run 3 inclusive ttH(bb) analysis, spearheading a modernized analysis strategy that substantially outperforms previous measurements.
-- Co-leading CMS Run 3 di-Higgs searches in bbbb and bbWW, pioneering low-pT jet strategies improving overall sensitivity by 10% (bbbb) and ~20% (bbWW).
+- Co-leading CMS Run 3 di-Higgs searches in the bbbb final state, advancing data-driven background modeling and uncertainty frameworks to maximize search sensitivity.
 - Developing machine learning algorithms for signal classification and out-of-sample density ratio estimation.
 - Co-supervising graduate researchers (Master's and Ph.D.) and administering the local research cluster (Slurm, GPUs).
 
 ##### _Postdoctoral Research Associate_, Carnegie Mellon University (2023 -- 2026)
 
 - Co-led the CMS Run 2 di-Higgs to four b-quark (bbbb) analysis group, improving sensitivity by 30% using data-driven background estimations.
+- Pioneered low-pT jet reconstruction strategies in di-Higgs searches, boosting overall sensitivity by 10% (bbbb) and ~20% (bbWW).
 - Fully preserved the 120+ job analysis workflow using Snakemake and REANA, and built multi-stage CI/CD pipelines (50+ jobs).
 - Managed local group cluster resources (Slurm queues, GPU nodes) and led community tutorials on workflow orchestration.
 
