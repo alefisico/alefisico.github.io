@@ -4,7 +4,8 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
+  - alefisico/reana-tutorial
+  - cms-cmu/CoReNet
   - cms-cmu/barista
-  - cms-cmu/coffea4bees
   - cms-cmu/bbreww
-  - alefisico/JetToolbox
+  - cms-cmu/coffea4bees
