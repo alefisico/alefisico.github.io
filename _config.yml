@@ -321,8 +321,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Gomez Espinosa]
-  first_name: [T.A.]
+  last_name: [Gomez Espinosa, Espinosa]
+  first_name: [T.A., Alejandro, Alejandro Gomez]
 
   style: apa
   locale: en
