@@ -2,6 +2,7 @@
 layout: page
 title: Living my life behind
 description: An 800 km adventure in 35 days walking along the Camino de Santiago
+date: 2021-08-01
 img: assets/img/logo_livingmylifebehind.png
 importance: 3
 category: fun

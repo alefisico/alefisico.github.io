@@ -2,6 +2,7 @@
 layout: page
 title: Value Player Actions in Football
 description: my version of this popular tutorial
+date: 2021-11-01
 img: assets/img/valueactions.png
 importance: 1
 category: fun

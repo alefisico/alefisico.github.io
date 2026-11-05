@@ -2,6 +2,7 @@
 layout: page
 title: CMS Open Data 2012 Dimuon Datasets
 description: Educational and outreach datasets from CMS Run 2012B collision and simulation data.
+date: 2022-05-11
 importance: 2
 category: work
 redirect: https://zenodo.org/records/6538437

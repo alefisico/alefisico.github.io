@@ -2,6 +2,7 @@
 layout: page
 title: Soccermatics for Python Series
 description: my version of this popular tutorial
+date: 2021-10-01
 img: assets/img/soccermatics.png
 importance: 1
 category: fun

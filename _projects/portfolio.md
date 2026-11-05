@@ -3,7 +3,7 @@ layout: distill
 permalink: /portfolio/
 title: portfolio
 description: A set of industry oriented examples with all the tools that I have dominated.
-date: March 2022
+date: 2022-03-01
 category: work
 importance: 2
 img: assets/img/portfolio.png

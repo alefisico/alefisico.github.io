@@ -3,7 +3,7 @@ layout: distill
 permalink: /ECHEP/
 title: Ecuadorian High Energy Physics Group
 description: A set of quick instructions to get started
-date: December 2022
+date: 2022-12-01
 bibliography: portfolio.bib
 nav: false
 img: assets/img/ECHEP/CMSecuador.png

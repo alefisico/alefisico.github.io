@@ -2,6 +2,7 @@
 layout: page
 title: CMS Open Data HH → 4b Multijet & Mixed Datasets
 description: Reconstructed collision, hemisphere-mixed synthetic data, and simulations in Parquet format for di-Higgs multijet background modelling.
+date: 2026-11-05
 importance: 1
 category: work
 redirect: https://huggingface.co/datasets/alefisico/LHC_HH4b_mixeddata

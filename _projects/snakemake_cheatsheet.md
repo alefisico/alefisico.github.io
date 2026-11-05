@@ -2,6 +2,7 @@
 layout: page
 title: Snakemake Cheatsheet
 description: A quick reference guide for common Snakemake commands and options.
+date: 2025-12-05
 img: assets/img/Snakemake.png
 importance: 1
 category: cheatsheet
