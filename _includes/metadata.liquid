@@ -168,6 +168,11 @@
     {% capture link %}https://gitlab.cern.ch/{{ site.gitlab_username }}{% endcapture %}
     {% assign sameaslinks = sameaslinks | push: link %}
   {% endif %}
+  {% assign huggingface_id = site.huggingface_id | default: site.huggingface_username %}
+  {% if huggingface_id %}
+    {% capture link %}https://huggingface.co/{{ huggingface_id }}{% endcapture %}
+    {% assign sameaslinks = sameaslinks | push: link %}
+  {% endif %}
   {% if site.dblp_url %}
     {% capture link %}{{ site.dblp_url }}{% endcapture %}
     {% assign sameaslinks = sameaslinks | push: link %}

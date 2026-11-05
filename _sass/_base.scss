@@ -398,9 +398,23 @@ ul.task-list input[type="checkbox"] {
         transition-property: all 0.2s ease-in-out;
       }
 
+      svg {
+        color: var(--global-text-color);
+        fill: currentColor;
+        transition-property: all 0.2s ease-in-out;
+        vertical-align: -0.125em;
+        width: 1em;
+        height: 1em;
+      }
+
       &:hover {
         i::before {
           color: var(--global-theme-color);
+        }
+
+        svg {
+          color: var(--global-theme-color);
+          fill: var(--global-theme-color);
         }
       }
     }
@@ -479,9 +493,23 @@ ul.task-list input[type="checkbox"] {
         transition-property: all 0.2s ease-in-out;
       }
 
+      svg {
+        color: var(--global-text-color);
+        fill: currentColor;
+        transition-property: all 0.2s ease-in-out;
+        vertical-align: -0.125em;
+        width: 1em;
+        height: 1em;
+      }
+
       &:hover {
         i::before {
           color: var(--global-theme-color);
+        }
+
+        svg {
+          color: var(--global-theme-color);
+          fill: var(--global-theme-color);
         }
       }
     }

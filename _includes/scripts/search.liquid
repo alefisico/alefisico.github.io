@@ -390,6 +390,17 @@
             },
           },
         {%- endif -%}
+        {%- assign huggingface_id = site.huggingface_id | default: site.huggingface_username -%}
+        {%- if huggingface_id -%}
+          {
+            id: 'socials-huggingface',
+            title: 'Hugging Face',
+            section: 'Socials',
+            handler: () => {
+              window.open("https://huggingface.co/{{ huggingface_id }}", "_blank");
+            },
+          },
+        {%- endif -%}
         {%- if site.dblp_url -%}
           {
             id: 'socials-dblp',
